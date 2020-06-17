@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
-""" Deeplabv3+ model for Keras.
+""" 
+The original version of this model can be found here: https://github.com/bonlime/keras-deeplab-v3-plus
+
+Deeplabv3+ model for Keras.
 This model is based on TF repo:
 https://github.com/tensorflow/models/tree/master/research/deeplab
 On Pascal VOC, original model gets to 84.56% mIOU
