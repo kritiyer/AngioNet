@@ -1,0 +1,4 @@
+(c) 2018 The Regents of the University of Michigan
+	AngioNet
+	Computational Vascular Biomechanics Lab - https://bloodflow.engin.umich.edu/
+	This software is provided for use solely under the PolyForm Noncommercial License 1.0.0
