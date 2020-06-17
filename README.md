@@ -16,4 +16,5 @@ model = AngioNet(L1=0, L2=0, DL_weights=None)
 
 ```
 
-Please cite...
+If you find this repository useful, please cite the following paper:
+TBD
