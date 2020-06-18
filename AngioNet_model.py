@@ -1,4 +1,4 @@
-from tensorflow.keras.layers import Input, Conv2D, Dense, Activation
+from tensorflow.keras.layers import Input, Conv2D, Dense, Activation, concatenate
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras import metrics
 from deeplab_model import Deeplabv3
@@ -23,7 +23,7 @@ def AngioNet(L1=0., L2= 0., DL_weights=None):
                 use_bias=False, data_format="channels_last")(X4)
     X6 = Conv2D(1, (3,3), strides=(1, 1), padding='same', dilation_rate=(1, 1), activation='tanh',
                 use_bias=False, data_format="channels_last")(X5)
-    X7 = tf.keras.layers.concatenate([X6, X6, X6], axis=3)
+    X7 = concatenate([X6, X6, X6], axis=3)
 
     unsharp_mask_model = Model(inputs=inputs, outputs=X7)
     unsharp_mask_model._name = "Preprocessing_Network"
