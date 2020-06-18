@@ -1,6 +1,6 @@
-from tensorflow.keras.layers import Input, Conv2D, Dense, Activation, concatenate
-from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras import metrics
+from tensorflow.keras.layers import Input, Conv2D, concatenate
+from tensorflow.keras.models import Model
+from tensorflow.keras.regularizers import l1_l2
 from deeplab_model import Deeplabv3
 
 
@@ -30,7 +30,7 @@ def AngioNet(L1=0., L2= 0., DL_weights=None):
 
     deeplab_model = Deeplabv3(weights=DL_weights, backbone="xception", input_shape = (512,512,3), classes=2)
     for layer in deeplab_model.layers:
-        layer.kernel_regularizer = tf.keras.regularizers.l1_l2(l1 = L1, l2=L2)
+        layer.kernel_regularizer = l1_l2(l1 = L1, l2=L2)
 
     combined_inputs = Input(shape=(512, 512, 1))
     unsharp_mask_img = unsharp_mask_model(combined_inputs)
