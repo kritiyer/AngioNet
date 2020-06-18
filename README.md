@@ -17,4 +17,6 @@ model = AngioNet(L1=0, L2=0, DL_weights=None)
 ```
 
 If you find this repository useful, please cite the following paper:
+```
 AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography (in preparation)
+```
