@@ -37,4 +37,4 @@ def AngioNet(L1=0., L2= 0., DL_weights=None):
     deeplab_img = deeplab_model(unsharp_mask_img)
     model = Model(combined_inputs, deeplab_img)
 
-return model
+    return model
