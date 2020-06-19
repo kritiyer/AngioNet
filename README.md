@@ -20,3 +20,7 @@ If you find this repository useful, please cite the following paper:
 ```
 AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography (in preparation)
 ```
+(c) 2018 The Regents of the University of Michigan
+    AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography
+    Computational Vascular Biomechanics Lab - https://bloodflow.engin.umich.edu/
+    This software is provided for use solely under the PolyForm Noncommercial License 1.0.0
