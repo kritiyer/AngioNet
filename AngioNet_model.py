@@ -1,3 +1,11 @@
+"""
+(c) 2018 The Regents of the University of Michigan
+    AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography
+    Computational Vascular Biomechanics Lab - https://bloodflow.engin.umich.edu/
+    This software is provided for use solely under the PolyForm Noncommercial License 1.0.0
+"""
+
+
 from tensorflow.keras.layers import Input, Conv2D, concatenate
 from tensorflow.keras.models import Model
 from tensorflow.keras.regularizers import l1_l2
