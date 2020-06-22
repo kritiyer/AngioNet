@@ -16,9 +16,13 @@ model = AngioNet(L1=0, L2=0, DL_weights=None)
 
 ```
 
+## Software as a Service Platform 
+We are in the process of creating a Software as a Service platform to allow anyone to segment their images with optimized weights. For further information, please contact `techtransfer@umich.edu`
+
+
 If you find this repository useful, please cite the following paper:
 ```
-AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography (in preparation)
+AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography. Iyer, K., Najarian, C.P., Fattah, A.A., et al.
 ```
 (c) 2018 The Regents of the University of Michigan
     AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography
