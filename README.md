@@ -2,7 +2,8 @@
 Semantic segmentation network for X-ray angiography images, containing a custom angiographic pre-processing network coupled with Deeplabv3+.
 
 ## Pre-requisites 
-Tensorflow 2.0 or higher
+Tensorflow 2.0 or higher 
+
 Python 2 or 3
 
 This code has been tested using Tensorflow 2.0rc on Python 3.5 and Tensorflow 2.1 on Python 3.7.
@@ -41,5 +42,5 @@ AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiog
 ```
 (c) 2018 The Regents of the University of Michigan
     AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography
-    Computational Vascular Biomechanics Lab - https://bloodflow.engin.umich.edu/
+    Computational Vascular Biomechanics Lab - https://bloodflow.engin.umich.edu/  
     This software is provided for use solely under the PolyForm Noncommercial License 1.0.0
