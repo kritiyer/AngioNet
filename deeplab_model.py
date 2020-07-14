@@ -27,6 +27,7 @@ from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import backend as K
+from tensorflow.python.keras.utils import conv_utils
 
 from tensorflow.keras.models import Model
 from tensorflow.keras import layers
@@ -66,7 +67,7 @@ class BilinearUpsampling(Layer):
 
         super(BilinearUpsampling, self).__init__(**kwargs)
 
-        self.data_format = K.normalize_data_format(data_format)
+        self.data_format = conv_utils.normalize_data_format(data_format)
         self.input_spec = InputSpec(ndim=4)
         if output_size:
             self.output_size = conv_utils.normalize_tuple(
