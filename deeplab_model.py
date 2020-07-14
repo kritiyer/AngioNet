@@ -26,7 +26,7 @@ from __future__ import print_function
 
 import numpy as np
 import tensorflow as tf
-from keras import backend as K
+from tensorflow.keras import backend as K
 
 from tensorflow.keras.models import Model
 from tensorflow.keras import layers
