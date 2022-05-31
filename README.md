@@ -30,7 +30,7 @@ model = AngioNet(L1=0, L2=0, DL_weights=None)
 ```
 The output is an untrained model with AngioNet architecture that you can fine-tune with your own data using the keras model API (https://www.tensorflow.org/api_docs/python/tf/keras/Model). To use a pre-trained model, please see: Software as a Service Platform.
 
-If training on your own data, please ensure images are 512x512 grayscale images. Label images are expected to be binary images where 0 is a background pixel and 1 is a vessel pixel.
+If training on your own data, please ensure images are 512x512 grayscale images. The input images should be normalized to the range [0,1]. Label images are expected to be binary images where 0 is a background pixel and 1 is a vessel pixel.
 
 ## Software as a Service Platform 
 We are in the process of creating a Software as a Service platform to allow anyone to segment their images with our optimized weights. For further information, please contact `techtransfer@umich.edu`
