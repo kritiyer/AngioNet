@@ -38,7 +38,7 @@ We are in the process of creating a Software as a Service platform to allow anyo
 ## Citation
 If you find this repository useful, please cite the following paper:
 ```
-AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography. Iyer, K., Najarian, C.P., Fattah, A.A., et al. MedRXiv. https://doi.org/10.1101/2021.01.25.21250488
+AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography. Iyer, K., Najarian, C.P., Fattah, A.A., et al. Sci Reports. 11, 18066 (2021). https://doi.org/10.1038/s41598-021-97355-8
 ```
 (c) 2018 The Regents of the University of Michigan
     AngioNet: A Convolutional Neural Network for Vessel Segmentation in X-ray Angiography
